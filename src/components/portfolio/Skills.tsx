@@ -2,64 +2,63 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { 
-  Docker, 
+  Container, 
   Github, 
-  Aws, 
-  Linux, 
-  Terraform, 
-  Ansible, 
-  Kubernetes,
-  Angular,
-  Javascript,
-  Typescript,
-  Html5,
-  Css3,
-  Nodejs,
-  Rest,
-  Mongodb,
-  Python,
-  Django,
-  Gitlab,
-  Bitbucket,
-  Oauth,
-  Sso
+  Cloud, 
+  Terminal, 
+  Settings, 
+  Wrench, 
+  Layers,
+  Code,
+  Braces,
+  FileCode,
+  Palette,
+  Globe,
+  Server,
+  Database,
+  Code2,
+  FileText,
+  GitBranch,
+  GitMerge,
+  Shield,
+  Key
 } from "lucide-react";
 
 export const Skills = () => {
   const skillCategories = [
     {
       title: "DevOps & Cloud",
-      icon: <Docker className="h-6 w-6" />,
+      icon: <Container className="h-6 w-6" />,
       skills: [
-        { name: "Docker", icon: <Docker className="h-4 w-4" /> },
+        { name: "Docker", icon: <Container className="h-4 w-4" /> },
         { name: "GitHub Actions", icon: <Github className="h-4 w-4" /> },
-        { name: "AWS", icon: <Aws className="h-4 w-4" /> },
-        { name: "Linux", icon: <Linux className="h-4 w-4" /> },
-        { name: "Terraform", icon: <Terraform className="h-4 w-4" /> },
-        { name: "Ansible", icon: <Ansible className="h-4 w-4" /> },
-        { name: "Kubernetes", icon: <Kubernetes className="h-4 w-4" /> },
+        { name: "AWS", icon: <Cloud className="h-4 w-4" /> },
+        { name: "Linux", icon: <Terminal className="h-4 w-4" /> },
+        { name: "Terraform", icon: <Settings className="h-4 w-4" /> },
+        { name: "Ansible", icon: <Wrench className="h-4 w-4" /> },
+        { name: "Kubernetes", icon: <Layers className="h-4 w-4" /> },
       ]
     },
     {
       title: "Frontend Development",
-      icon: <Angular className="h-6 w-6" />,
+      icon: <Code className="h-6 w-6" />,
       skills: [
-        { name: "Angular", icon: <Angular className="h-4 w-4" /> },
-        { name: "JavaScript", icon: <Javascript className="h-4 w-4" /> },
-        { name: "TypeScript", icon: <Typescript className="h-4 w-4" /> },
-        { name: "HTML5", icon: <Html5 className="h-4 w-4" /> },
-        { name: "CSS3", icon: <Css3 className="h-4 w-4" /> },
+        { name: "Angular", icon: <Code className="h-4 w-4" /> },
+        { name: "JavaScript", icon: <Braces className="h-4 w-4" /> },
+        { name: "TypeScript", icon: <FileCode className="h-4 w-4" /> },
+        { name: "HTML5", icon: <Globe className="h-4 w-4" /> },
+        { name: "CSS3", icon: <Palette className="h-4 w-4" /> },
       ]
     },
     {
       title: "Backend Development",
-      icon: <Nodejs className="h-6 w-6" />,
+      icon: <Server className="h-6 w-6" />,
       skills: [
-        { name: "Node.js", icon: <Nodejs className="h-4 w-4" /> },
-        { name: "REST APIs", icon: <Rest className="h-4 w-4" /> },
-        { name: "MongoDB", icon: <Mongodb className="h-4 w-4" /> },
-        { name: "Python", icon: <Python className="h-4 w-4" /> },
-        { name: "Django", icon: <Django className="h-4 w-4" /> },
+        { name: "Node.js", icon: <Server className="h-4 w-4" /> },
+        { name: "REST APIs", icon: <Globe className="h-4 w-4" /> },
+        { name: "MongoDB", icon: <Database className="h-4 w-4" /> },
+        { name: "Python", icon: <Code2 className="h-4 w-4" /> },
+        { name: "Django", icon: <FileText className="h-4 w-4" /> },
       ]
     },
     {
@@ -67,10 +66,10 @@ export const Skills = () => {
       icon: <Github className="h-6 w-6" />,
       skills: [
         { name: "GitHub", icon: <Github className="h-4 w-4" /> },
-        { name: "GitLab", icon: <Gitlab className="h-4 w-4" /> },
-        { name: "Bitbucket", icon: <Bitbucket className="h-4 w-4" /> },
-        { name: "OAuth", icon: <Oauth className="h-4 w-4" /> },
-        { name: "SSO", icon: <Sso className="h-4 w-4" /> },
+        { name: "GitLab", icon: <GitBranch className="h-4 w-4" /> },
+        { name: "Bitbucket", icon: <GitMerge className="h-4 w-4" /> },
+        { name: "OAuth", icon: <Shield className="h-4 w-4" /> },
+        { name: "SSO", icon: <Key className="h-4 w-4" /> },
       ]
     }
   ];
