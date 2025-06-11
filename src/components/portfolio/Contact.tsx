@@ -61,7 +61,7 @@ export const Contact = () => {
                 </div>
                 <div>
                   <div className="font-medium">Email</div>
-                  <div className="text-muted-foreground">devesh.singh.negi@example.com</div>
+                  <div className="text-muted-foreground">deveshnegi77@gmail.com</div>
                 </div>
               </div>
 
@@ -71,7 +71,7 @@ export const Contact = () => {
                 </div>
                 <div>
                   <div className="font-medium">LinkedIn</div>
-                  <div className="text-muted-foreground">linkedin.com/in/devesh-singh-negi</div>
+                  <div className="text-muted-foreground">https://www.linkedin.com/in/devesh-singh-negi-6301a4158/</div>
                 </div>
               </div>
 
@@ -81,25 +81,20 @@ export const Contact = () => {
                 </div>
                 <div>
                   <div className="font-medium">GitHub</div>
-                  <div className="text-muted-foreground">github.com/devesh-singh-negi</div>
+                  <div className="text-muted-foreground">https://github.com/DeveshNegi99</div>
                 </div>
               </div>
             </div>
 
             <div className="flex gap-4">
               <Button variant="outline" size="icon" asChild>
-                <a href="mailto:devesh.singh.negi@example.com" aria-label="Email">
+                <a href="mailto:deveshnegi77@gmail.com" aria-label="Email">
                   <Mail className="h-4 w-4" />
                 </a>
               </Button>
               <Button variant="outline" size="icon" asChild>
-                <a href="https://linkedin.com/in/devesh-singh-negi" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                <a href="https://www.linkedin.com/in/devesh-singh-negi-6301a4158/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
                   <Linkedin className="h-4 w-4" />
-                </a>
-              </Button>
-              <Button variant="outline" size="icon" asChild>
-                <a href="https://github.com/devesh-singh-negi" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
-                  <Github className="h-4 w-4" />
                 </a>
               </Button>
             </div>

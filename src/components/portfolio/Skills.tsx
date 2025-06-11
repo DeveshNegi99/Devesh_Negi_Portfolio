@@ -1,13 +1,13 @@
 
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { 
-  Container, 
-  Github, 
-  Cloud, 
-  Terminal, 
-  Settings, 
-  Wrench, 
+import {
+  Container,
+  Github,
+  Cloud,
+  Terminal,
+  Settings,
+  Wrench,
   Layers,
   Code,
   Braces,
@@ -48,6 +48,7 @@ export const Skills = () => {
         { name: "TypeScript", icon: <FileCode className="h-4 w-4" /> },
         { name: "HTML5", icon: <Globe className="h-4 w-4" /> },
         { name: "CSS3", icon: <Palette className="h-4 w-4" /> },
+        { name: "Bootstrap" }
       ]
     },
     {

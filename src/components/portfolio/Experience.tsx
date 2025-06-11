@@ -6,39 +6,31 @@ import { Calendar, Users, Globe, Code } from "lucide-react";
 export const Experience = () => {
   const experiences = [
     {
-      title: "Senior Full-Stack Developer",
-      company: "International Tech Solutions",
-      period: "2021 - Present",
-      description: "Leading full-stack development projects for global clients, managing end-to-end project lifecycle from requirements gathering to deployment and maintenance.",
+      title: "Software Development Engineer - I ",
+      company: "Mechlin Software Technologies",
+      period: "April-2023 - Oct-2024",
+      description: "Specialized in cloud infrastructure and development, working with international clients to build scalable and reliable systems.",
       highlights: [
-        "Delivered 8+ enterprise-level applications",
-        "Reduced deployment time by 70% through DevOps automation",
-        "Led a team of 5 developers across multiple time zones",
-        "Implemented microservices architecture for scalability"
+        "Worked on diverse client projects, initiating projectsfrom the ground up and ensuring timely delivery of well-tested, bug-free, and high - performance features.Managed client communication via Slack and Meet platforms.",
+        "Resolved deployment failures and system outages through efficient troubleshooting and incident response.",
+        "Built and maintained CI/CD pipelines for automated build, deployment, and testing in multiple environments.",
+        "Handled code deployments in development, staging, and production environments, ensuring zero-downtime rollouts.",
+        "Containerized applications using Docker & Kubernetes (AKS & GKE), improving scalability.",
+        "Collaborated with DevOps team to test system integrity and configuration changes before production rollout."
       ]
     },
     {
-      title: "DevOps Engineer & Full-Stack Developer",
-      company: "Cloud Native Solutions",
-      period: "2019 - 2021",
-      description: "Specialized in cloud infrastructure and full-stack development, working with international clients to build scalable and reliable systems.",
+      title: "Associate Software Development Engineer",
+      company: "Mechlin Software Technologies",
+      period: "Mar-2022 - April-2023",
+      description: "Focused on frontend and backend development along with Cloud Tools using modern frameworks and technologies for diverse client projects.",
       highlights: [
-        "Migrated legacy systems to cloud-native architecture",
-        "Implemented CI/CD pipelines reducing bug reports by 60%",
-        "Managed AWS infrastructure serving 100k+ users",
-        "Collaborated with teams across 6 different countries"
-      ]
-    },
-    {
-      title: "Software Developer",
-      company: "Tech Innovations Ltd.",
-      period: "2018 - 2019",
-      description: "Focused on frontend and backend development using modern frameworks and technologies for diverse client projects.",
-      highlights: [
-        "Built responsive web applications using Angular",
-        "Developed RESTful APIs with Node.js and MongoDB",
-        "Improved application performance by 40%",
-        "Worked directly with international stakeholders"
+        "Managed client interactions via Slack and Meet platforms. Worked on numerouslive client projects across the globe.",
+        "Collaborated closely with a talented team of developers to ensure the successful and punctual delivery of top-notch projects.",
+        "Gained hands-on experience with cloud serviceslike AWS for deployment.",
+        "Automated resource provisioning with Terraform Templates.",
+        "Monitored cloud infrastructure using Azure Monitor & Prometheus, Grafana ensuring high availability.",
+        "Implemented monitoring and alerting solutions using Prometheus, Grafana, and ELK Stack, improving system reliability."
       ]
     }
   ];
@@ -65,7 +57,7 @@ export const Experience = () => {
     {
       icon: <Calendar className="h-6 w-6" />,
       label: "Years Experience",
-      value: "5+",
+      value: "2.5+",
       description: "In software development"
     }
   ];

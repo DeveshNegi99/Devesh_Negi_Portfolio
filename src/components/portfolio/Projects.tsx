@@ -73,8 +73,8 @@ export const Projects = () => {
     { id: "devops", label: "DevOps" }
   ];
 
-  const filteredProjects = activeFilter === "all" 
-    ? projects 
+  const filteredProjects = activeFilter === "all"
+    ? projects
     : projects.filter(project => project.category === activeFilter);
 
   return (
@@ -113,12 +113,12 @@ export const Projects = () => {
                 />
                 <div className="absolute inset-0 bg-black/20 group-hover:bg-black/40 transition-colors" />
               </div>
-              
+
               <CardHeader>
                 <CardTitle className="text-xl">{project.title}</CardTitle>
                 <CardDescription>{project.description}</CardDescription>
               </CardHeader>
-              
+
               <CardContent>
                 <div className="flex flex-wrap gap-2 mb-4">
                   {project.tech.map((tech) => (
@@ -127,7 +127,7 @@ export const Projects = () => {
                     </Badge>
                   ))}
                 </div>
-                
+
                 <div className="flex gap-2">
                   <Button size="sm" variant="outline" className="flex-1">
                     <ExternalLink className="h-4 w-4 mr-2" />

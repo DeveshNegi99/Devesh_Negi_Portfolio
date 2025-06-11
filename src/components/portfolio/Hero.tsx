@@ -1,6 +1,6 @@
 
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Download } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 
 export const Hero = () => {
   const scrollToProjects = () => {
@@ -27,10 +27,10 @@ export const Hero = () => {
 
         <div className="space-y-6 animate-fade-in" style={{ animationDelay: "0.2s" }}>
           <p className="text-lg md:text-xl text-foreground max-w-2xl mx-auto leading-relaxed">
-            Senior Software Developer with 5+ years of experience delivering 15+ global projects. 
+            Software Development Engineer-I with 2.5+ years of experience delivering 10+ global projects.
             Specializing in full-stack development, DevOps, and scalable cloud solutions.
           </p>
-          
+
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Button size="lg" onClick={scrollToContact} className="group">
               Hire Me
@@ -44,11 +44,11 @@ export const Hero = () => {
 
         <div className="grid grid-cols-3 gap-8 max-w-md mx-auto animate-fade-in" style={{ animationDelay: "0.4s" }}>
           <div className="text-center">
-            <div className="text-2xl md:text-3xl font-bold text-primary">5+</div>
+            <div className="text-2xl md:text-3xl font-bold text-primary">2.5+</div>
             <div className="text-sm text-muted-foreground">Years Experience</div>
           </div>
           <div className="text-center">
-            <div className="text-2xl md:text-3xl font-bold text-primary">15+</div>
+            <div className="text-2xl md:text-3xl font-bold text-primary">10+</div>
             <div className="text-sm text-muted-foreground">Projects Delivered</div>
           </div>
           <div className="text-center">
